@@ -10,9 +10,9 @@
 	<link href='https://fonts.googleapis.com/css?family=Titillium+Web:700' rel='stylesheet' type='text/css'/>
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600' rel='stylesheet' type='text/css'/>
 
-<script type="text/javascript" src="../../client/apri-client-sys/lib/APRI/APRI.js"></script>
-<script type="text/javascript" src="../../client/apri-client-sys/lib/APRI/APRI-controller.js"></script>
-<script type="text/javascript" src="../../client/apri-client-sys/lib/APRI/APRI-kickstart.js"></script>
+<script type="text/javascript" src="../client/apri-client-sys/lib/APRI/APRI.js"></script>
+<script type="text/javascript" src="../client/apri-client-sys/lib/APRI/APRI-controller.js"></script>
+<script type="text/javascript" src="../client/apri-client-sys/lib/APRI/APRI-kickstart.js"></script>
 	
 </head>
 
@@ -30,7 +30,7 @@
 
 	<header>
 
-		<div class="wrapper"><img src="../../client/apri-client-scapeler/lib/img/scapeler-logo.gif" alt="Scapeler - Open Data Innovaties" /></div>
+		<div class="wrapper"><img src="../client/apri-client-scapeler/lib/img/scapeler-logo.gif" alt="Scapeler - Open Data Innovaties" /></div>
 
 	</header>
 
@@ -51,7 +51,7 @@
 												</p>
 										</div>
 
-										<div class="second"><img src="../../client/apri-client-scapeler/lib/img/scapeler-od-aarde.jpg" alt="Open Data"/></div>
+										<div class="second"><img src="../client/apri-client-scapeler/lib/img/scapeler-od-aarde.jpg" alt="Open Data"/></div>
 
 								</div>
 
@@ -60,7 +60,7 @@
 				</section>
 
 		</section>
-
+		
 
 		<section class="blue">
 
@@ -79,7 +79,7 @@
 												</p>
 										</div>
 
-										<div class="second"><img src="../../client/apri-client-scapeler/lib/img/scapeler-od-map.jpg" alt="Open Data Luchtkwaliteit"/></div>
+										<div class="second"><img src="../client/apri-client-scapeler/lib/img/scapeler-od-map.jpg" alt="Open Data Luchtkwaliteit"/></div>
 
 								</div>
 
@@ -89,9 +89,48 @@
 
 		</section>
 
+
+
 		<section class="drie">
 
-				<section class="wrapper">
+			<section class="wrapper">
+
+								<h1>VOORBEELDEN MET OPEN DATA</h1>
+
+								<div class="master">
+
+										<div class="first">
+												<p>
+													Scapeler maakt open data luchtkwaliteit zichtbaar. Ozon, fijnstof (PM1, PM2.5, PM10, UFP), NOx, en meer. 
+													<BR/>
+													Deze voorbeelden laten visualisaties zien van de meetwaarden van:
+												<ul>
+												 <li>PM10 - actueel</li>
+												 <li>Ozon - 1 uur geleden</li>
+												 <li>Ozon - actueel</li> 
+												 </ul>
+												 De beelden worden automatisch ververst.
+												</p>
+										</div>
+										<div class="first"><iframe src="http://localhost:3000/SCAPE604/app/leaflet?city=Eindhoven&sensor=PM10" height="300" width="300"></iframe></div>
+										<div class="second"><iframe src="http://localhost:3000/SCAPE604/app/leaflet?city=Eindhoven&sensor=OZON&time=-60" height="320" width="300"></iframe></div>
+										<div class="second"><iframe src="http://localhost:3000/SCAPE604/app/leaflet?city=Eindhoven&sensor=OZON" height="300" width="300"></iframe></div>
+								<!--		<div class="second"><iframe src="http://localhost:3000/SCAPE604/app/leaflet?city=Eindhoven&sensor=pm10" height="320" width="300"></iframe></div>
+										<div class="second"><iframe src="http://localhost:3000/SCAPE604/app/leaflet?city=Eindhoven&sensor=OZON" height="320" width="300"></iframe></div>
+										<div class="second"><iframe src="http://localhost:3000/SCAPE604/app/leaflet?city=Eindhoven&sensor=UFP" height="320" width="300"></iframe></div>  
+										-->
+
+								</div>
+
+								<div class="clearFloat"></div>
+
+				</section>
+
+		</section>
+
+		<section class="blue">
+
+				<section class="wrapper" style="margin-top: 40px;">
 
 									<div class="master">
 
@@ -103,7 +142,7 @@
 													</p>
 											</div>
 
-											<div class="second"><img src="../../client/apri-client-scapeler/lib/img/scapeler-od-idee.png" alt="Open Data ideeën"/></div>
+											<div class="second"><img src="../client/apri-client-scapeler/lib/img/scapeler-od-idee.png" alt="Open Data ideeën"/></div>
 
 									</div>
 
@@ -112,8 +151,8 @@
 					</section>
 
 		</section>
-
-		<section class="blue">
+		
+		<section class="drie">
 
 			<section class="wrapper">
 
@@ -122,14 +161,14 @@
 								<div class="master">
 
 										<div class="first">
-												<p>
+												<div>
 													Wil je meer weten over Open Data of over het werk van Scapeler? Laat het ons weten via de mail!
 												<br><br>
 												<a href="mailto:info@scapeler.com" class="contact">Stuur een email</a>
-												</p>
+												</div>
 										</div>
 
-										<div class="second">
+										<div class="second" height="40px">
 
 
 										</div>
@@ -147,10 +186,11 @@
 
 
 
+
 	  <footer>
 
-			<div class="wrapper">
-					<img src="../../client/apri-client-scapeler/lib/img/scapeler-logo-footer.png" alt="Scapeler - Open Data Innovaties" />
+			<div class="wrapper" style="margin-top: 40px;">
+					<img src="../client/apri-client-scapeler/lib/img/scapeler-logo-footer.png" alt="Scapeler - Open Data Innovaties" />
 					<br><br>
 
 					<a href="https://twitter.com/Scapeler" target="_blank" class="twitter">
