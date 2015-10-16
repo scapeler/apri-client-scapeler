@@ -24,7 +24,8 @@ h1{
   font-weight:600;
   line-height:48px;
   color:#4d4d4d;
-  margin-bottom:20px;
+  margin-bottom:60px;
+  margin-top:120px;
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
   }
@@ -80,10 +81,11 @@ select{
   max-width: 960px;
   margin: 0 auto;
   padding: 50px 25px;
+  margin-bottom:120px;
  }
 
  .drie .wrapper {
-   padding-bottom: 0px;
+   #padding-bottom: 0px;
  }
 
  .drie .wrapper img{
@@ -107,7 +109,7 @@ header img{
 }
 
 footer{
-  height: 340px;
+  height: 508px;
   font-size: 18px;
   text-align: center;
   background-color: #1e2129;
